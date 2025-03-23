@@ -49,7 +49,7 @@ A few other projects may be listed in my [LinkedIn](https://www.linkedin.com/in/
 
 ## Denshya
 
-I'm initiative of making Web a better place by making simple standardized atomized tools
+My initiative of making Web a better place by making simple standardized atomized tools
 
 https://github.com/denshya
 
