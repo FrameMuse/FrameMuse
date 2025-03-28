@@ -45,7 +45,7 @@ A few other projects may be listed in my [LinkedIn](https://www.linkedin.com/in/
 **Private/lost projects**
 - [Governmental Project - Website for helping children to start their school activities faster via small games]
 - CSGOKnife (coudn't find codebase)
-- Promocodes website - the website I started my career as I got money for this (couldn't find the codebase, it was 10 years ago)
+- Promocodes website - the website I started my career as I got money for this (couldn't find the codebase, it was in 2015)
 
 ## Denshya
 
