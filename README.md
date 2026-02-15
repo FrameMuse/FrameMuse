@@ -2,39 +2,42 @@
 
 I'm a developer, I usually create web applications with TypeScript React. Beyond active job, I'm creating libraries.
 
-### Portfolio
+## Portfolio
 
-#### Big projects
+### Major Projects
 
-Sorted from the most recent to the oldest.
-  
-- https://github.com/FrameMuse/algo-academy
-- https://github.com/FrameMuse/etukk-front-copy
-- https://github.com/FrameMuse/creaty-frontend
-- https://github.com/FrameMuse/merlines-frontend
-- https://github.com/FrameMuse/Case-Simulator-React - Minimal codebase since the project is still alive
-- https://github.com/FrameMuse/standoffup
-- https://github.com/FrameMuse/StandoffSpin
-- https://github.com/FrameMuse/StandoffCrash
-- https://github.com/FrameMuse/StandoffCard
-- https://github.com/FrameMuse/StandoffRoll
+|Name||
+|---|---|
+|Algo-Academy|[Repository](./algo-academy)|
+|Etukk Front Copy|[Repository](./etukk-front-copy)|
+|Creaty Frontend|[Repository](./creaty-frontend)|
+|Merlines Frontend|[Repository](./merlines-frontend)|
+|Case Simulator|[Repository](./Case-Simulator-React)|
+|StandoffUp|[Repository](./standoffup)|
+|StandoffSpin|[Repository](./StandoffSpin)|
+|StandoffCrash|[Repository](./StandoffCrash)|
+|StandoffCard|[Repository](./StandoffCard)|
+|StandoffRoll|[Repository](./StandoffRoll)|
 
-#### Side projects
+### Side Projects
 
-- https://github.com/FrameMuse/react-i18n-editor
-- https://github.com/FrameMuse/polygon-constructor
-- https://github.com/FrameMuse/mzv-news
-- https://github.com/FrameMuse/corpachat-frontend
-- https://github.com/FrameMuse/FrameMuse-Galaxy
-- https://github.com/FrameMuse/Sakura-GPT-Bot
-- https://github.com/FrameMuse/tg-bot
+|Name||
+|---|---|
+|React I18n Editor|[Repository](./react-i18n-editor)|
+|Polygon Constructor|[Repository](./polygon-constructor)|
+|Mzv News|[Repository](./mzv-news)|
+|Corpachat Frontend|[Repository](./corpachat-frontend)|
+|Framemuse Galaxy|[Repository](./FrameMuse-Galaxy)|
+|Sakura Gpt Bot|[Repository](./Sakura-GPT-Bot)|
+|Tg Bot|[Repository](./tg-bot)|
 
-#### History of my self-learning
+### History of my self-learning
 
 Here are the play-around projects that I did because I just liked coding:
-https://github.com/stars/FrameMuse/lists/early-projects
+<https://github.com/stars/FrameMuse/lists/early-projects>
 
-**Current workplace projects**
+## Current workplace projects
+
 - Other Softwares and UI design solutions - maybe in far future I will reveal or maybe not
 - Figma Plugin
 - Admin Panel
@@ -42,7 +45,8 @@ https://github.com/stars/FrameMuse/lists/early-projects
 
 A few other projects may be listed in my [LinkedIn](https://www.linkedin.com/in/framemuse/).
 
-**Private/lost projects**
+## Private/lost projects
+
 - [Governmental Project - Website for helping children to start their school activities faster via small games]
 - CSGOKnife (coudn't find codebase)
 - Promocodes website - the website I started my career as I got money for this (couldn't find the codebase, it was in 2015)
@@ -51,7 +55,7 @@ A few other projects may be listed in my [LinkedIn](https://www.linkedin.com/in/
 
 My initiative of making Web a better place by making simple standardized atomized tools
 
-https://github.com/denshya
+<https://github.com/denshya>
 
 ## Short bio
 
@@ -71,4 +75,4 @@ I always work on projects that not only will satisfy demands of consumers but al
 
 ## Keep reading about me
 
-https://github.com/FrameMuse/FrameMuse/blob/main/bio.md
+<https://github.com/FrameMuse/FrameMuse/blob/main/bio.md>
