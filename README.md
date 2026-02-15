@@ -8,10 +8,10 @@ I'm a developer, I usually create web applications with TypeScript React. Beyond
 
 |Name||
 |---|---|
-|Algo-Academy|[Repository](./algo-academy)|
-|Etukk Front Copy|[Repository](./etukk-front-copy)|
-|Creaty Frontend|[Repository](./creaty-frontend)|
-|Merlines Frontend|[Repository](./merlines-frontend)|
+|Algo Academy|[Repository](./algo-academy)|
+|Etukk|[Repository](./etukk-front-copy)|
+|Creaty|[Repository](./creaty-frontend)|
+|Merlines|[Repository](./merlines-frontend)|
 |Case Simulator|[Repository](./Case-Simulator-React)|
 |StandoffUp|[Repository](./standoffup)|
 |StandoffSpin|[Repository](./StandoffSpin)|
@@ -26,7 +26,7 @@ I'm a developer, I usually create web applications with TypeScript React. Beyond
 |React I18n Editor|[Repository](./react-i18n-editor)|
 |Polygon Constructor|[Repository](./polygon-constructor)|
 |Mzv News|[Repository](./mzv-news)|
-|Corpachat Frontend|[Repository](./corpachat-frontend)|
+|Corpachat|[Repository](./corpachat-frontend)|
 |Framemuse Galaxy|[Repository](./FrameMuse-Galaxy)|
 |Sakura Gpt Bot|[Repository](./Sakura-GPT-Bot)|
 |Tg Bot|[Repository](./tg-bot)|
