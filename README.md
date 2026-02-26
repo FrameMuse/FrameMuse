@@ -8,28 +8,28 @@ I'm a developer, I usually create web applications with TypeScript React. Beyond
 
 |Name||
 |---|---|
-|Algo Academy|[Repository](./algo-academy)|
-|Etukk|[Repository](./etukk-front-copy)|
-|Creaty|[Repository](./creaty-frontend)|
-|Merlines|[Repository](./merlines-frontend)|
-|Case Simulator|[Repository](./Case-Simulator-React)|
-|StandoffUp|[Repository](./standoffup)|
-|StandoffSpin|[Repository](./StandoffSpin)|
-|StandoffCrash|[Repository](./StandoffCrash)|
-|StandoffCard|[Repository](./StandoffCard)|
-|StandoffRoll|[Repository](./StandoffRoll)|
+|Algo Academy|[Repository](https://github.com/FrameMuse/algo-academy)|
+|Etukk|[Repository](https://github.com/FrameMuse/etukk-front-copy)|
+|Creaty|[Repository](https://github.com/FrameMuse/creaty-frontend)|
+|Merlines|[Repository](https://github.com/FrameMuse/merlines-frontend)|
+|Case Simulator|[Repository](https://github.com/FrameMuse/Case-Simulator-React)|
+|StandoffUp|[Repository](https://github.com/FrameMuse/standoffup)|
+|StandoffSpin|[Repository](https://github.com/FrameMuse/StandoffSpin)|
+|StandoffCrash|[Repository](https://github.com/FrameMuse/StandoffCrash)|
+|StandoffCard|[Repository](https://github.com/FrameMuse/StandoffCard)|
+|StandoffRoll|[Repository](https://github.com/FrameMuse/StandoffRoll)|
 
 ### Side Projects
 
 |Name||
 |---|---|
-|React I18n Editor|[Repository](./react-i18n-editor)|
-|Polygon Constructor|[Repository](./polygon-constructor)|
-|Mzv News|[Repository](./mzv-news)|
-|Corpachat|[Repository](./corpachat-frontend)|
-|Framemuse Galaxy|[Repository](./FrameMuse-Galaxy)|
-|Sakura Gpt Bot|[Repository](./Sakura-GPT-Bot)|
-|Tg Bot|[Repository](./tg-bot)|
+|React I18n Editor|[Repository](https://github.com/FrameMuse/react-i18n-editor)|
+|Polygon Constructor|[Repository](https://github.com/FrameMuse/polygon-constructor)|
+|Mzv News|[Repository](https://github.com/FrameMuse/mzv-news)|
+|Corpachat|[Repository](https://github.com/FrameMuse/corpachat-frontend)|
+|Framemuse Galaxy|[Repository](https://github.com/FrameMuse/FrameMuse-Galaxy)|
+|Sakura Gpt Bot|[Repository](https://github.com/FrameMuse/Sakura-GPT-Bot)|
+|Tg Bot|[Repository](https://github.com/FrameMuse/tg-bot)|
 
 ### History of my self-learning
 
