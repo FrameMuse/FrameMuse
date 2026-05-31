@@ -1,14 +1,14 @@
 # Faster JavaScript Loops Even Seniors Don't Know About
 
-_Measured with Bun 1.3.14 (JavaScriptCore) on Linux. Different engines produce different numbers, but the relative ordering holds._
+_Benchmarks: Bun 1.3.14 (JavaScriptCore), Linux. 1\_000\_000 elements per test, median across repeated runs._
 
 ---
 
 ## Loops
 
-Loops are everywhere. Every program iterates over something: API responses, DOM nodes, event lists, pixel buffers, database rows. JavaScript gives us several ways to write a loop, most developers pick one and stick with it without ever questioning whether it's the right one for the job.
+Loops are everywhere. Every program iterates over something:  database rows, pixel buffers, DOM nodes. JavaScript gives us several ways to write a loop, most developers pick one and stick with it without ever questioning whether it's the right one for the job.
 
-Before we talk about speed, let's catalog what we're working with.
+Before we talk about speed, let's _iterate through_ what we're working with.
 
 _Feel free to skip this section if you're already aware of every iterating approach._
 
@@ -420,7 +420,3 @@ Each step taught us something: the iterator protocol allocates a lot. `ZeroGCRan
 What frustrates me is that JavaScript engines _could_ close most of these gaps. Loop unrolling, scalar replacement of aggregates (optionally eliminating `{ value, done }` allocations) and escape analysis are textbook compiler optimizations. Some engines apply them in narrow cases. None do it reliably enough that idiomatic iterators perform as well as hand-optimized loops.
 
 Until they do, knowing the landscape, not blindly applying every trick, is what separates a curious engineer from a cargo-cult optimizer.
-
----
-
-_Benchmarks: Bun 1.3.14 (JavaScriptCore), Linux. 1,000,000 elements per test (10,000 for baked eval). Median across repeated runs. Absolute numbers vary by engine; the ordering is stable across V8, JavaScriptCore, and SpiderMonkey._
