@@ -343,6 +343,25 @@ We've pushed `for (range)` as far as it goes: unrolling gives 3.5× on arrays, a
 
 ---
 
+### Iterables
+
+For some unknown reason, Iterables in JavaScript are terribly slow.
+
+#### `IteratorResult` Allocation
+
+One of the reasons is that each call of `next()` (each iteration) must create a new `IteratorResult` object, which requires to be allocated and then dismissed.
+
+We can fight it by creating `IteratorResult` once and then reusing it, which is totally fine for 99% of the cases. It fails only on nested loops and async iterators as `IteratorResult` may be returned for a wrong consumer (which can also be solved by creating a Pool of result objects).
+
+It gives 30-50% speed, which is worth IMHO.
+
+#### Unknown Source
+
+It's still about 12 times slower than simple array.
+That is because the iterator doesn't "know" how many items are there yet to go.
+
+So we can just give i
+
 ## The Unconventional Method
 
 What if we eliminated the loop entirely?
@@ -420,3 +439,20 @@ Each step taught us something: the iterator protocol allocates a lot. `ZeroGCRan
 What frustrates me is that JavaScript engines _could_ close most of these gaps. Loop unrolling, scalar replacement of aggregates (optionally eliminating `{ value, done }` allocations) and escape analysis are textbook compiler optimizations. Some engines apply them in narrow cases. None do it reliably enough that idiomatic iterators perform as well as hand-optimized loops.
 
 Until they do, knowing the landscape, not blindly applying every trick, is what separates a curious engineer from a cargo-cult optimizer.
+
+---
+
+This teaches us that a provided feature isn't supposed to be as performant as possible (_would nice too_), but it rather gives a uniform **Interface** to built upon. You can use what is already there or implement a custom structure around **well-known** structure that is optimized for your use-case or environment, while developers don't need to learn anything new about **_how to use it_**.
+
+Building custom code around existing interfaces IS the most correct way to make your system more performant without sacrificing sanity of developers you will have to use it.
+
+However, it doesn't mean you should "share" it for the whole language by override existing parts of JavaScript. Even though possible and allowed, it's vastly discouraged as you can't predict every single case, what looks perfect may just look but not to be.
+
+- DON'T: `Iterator = class MyCoolIterator {...}`
+- DO: `class MyCoolIterator extends Iterator {...}`
+
+It means you will have to use your own Iterator instead of native one, it's depressing I know, but remember, you're extending existing structure, so the signatures are still the same. So at some point you can just replace it without actually rewrite the whole codebase.
+
+---
+
+Can we streamline these optimization without hustle? - Read about "JavaScript Optimization Pragmas"
