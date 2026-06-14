@@ -1,25 +1,11 @@
-## Long Bio but funny... I guess
+My journey into programming started at 11 when I found "HTML & CSS for Dummies." Boredom got me started; curiosity kept me going. From static pages I moved to PHP and jQuery, building CS:GO gambling sites and small web experiments — the classic self-taught path.
 
-My journey into the world of programming began quite a long time ago, it's hard for some to believe, but what got me on the path was boredom. It somehow happened that at the age of 11 I found the book "HTML & CSS for Dummies", well, that's how it went :)
+TypeScript became my primary language. I use it daily across the full stack: React frontends, NestJS APIs, custom frameworks, infrastructure tooling. React and TypeScript together have been my most productive combination for years, and I've built dozens of components, libraries and a project template from the patterns I've learned.
 
-I love TypeScript very much, before I face it I was sure that I would never like it or use, but one day I just fell in love with it, now I use it on a daily basis. If there is a possibility to use it my project - **I will ^_^**.
+Over time I grew beyond frontend. I reached for Rust to build high-throughput auth microservices (Axum, SQLx, JWT, WebSocket). I reached for Python to build ML classifiers and automation. I started provisioning Linux servers, configuring nginx with SSL, hardening SSH, setting up fail2ban, writing CI/CD pipelines, deploying to AWS, GCP, Cloudflare Workers and Fly.io. I debugged RabbitMQ connection leaks in production, optimized PostgreSQL queries from 8 seconds to 80ms, and wrote post-mortems after server attacks.
 
-I got acquainted with React even earlier and TypeScript was a game changer for how I develop applications on React, I think it's probably the best bunch I've worked with and have been working with for some more years. One of things I really like to do in react is creating my own components, more for fun, so I learn how some existing components work, for example `DateRangePicker` or `CheckTreePicker`. By this time, I already have a large number of components and [my own template](https://github.com/FrameMuse/react-template).
+I follow TC39 proposals and participate in discussions. I built the Denshya ecosystem — a set of reactive TypeScript libraries that rethinks how frontend state management works. I wrote the No-Framework Principle. I maintain several npm packages. I'm always learning: currently Three.js for 3D graphics, Unity and C# for game development, and whatever else solves the problem in front of me.
 
-I constantly learning and reading foreign magazines and articles, sometime I had to read an article about
-mathematics in order to figure out the difficult task, this was "rotation matrix" - _Oh heaven, this was a hell_.
+Outside code: skateboarding, playing percussion (conservatory-trained), piano, guitar, PC games, languages (English, Czech, Japanese, Serbian).
 
-As for UI interfaces, I have been working with them for a long time, about 5 years, sometimes I even “scold” designers for inaccuracies: in the selection of colors, in the wrong centering, or in principle when the solution is inconvenient, not practical and difficult to implement. I blame on them: why you can't just do your job - this is so much pain to work with incompetent designers as they have a lot of responsibility which they underestimate.
-
-I am constantly developing and striving for new heights, I learn very quickly, not only because of "some" experience in this area, but also because of interests and hobbies in different, unrelated areas.
-I am fond of learning languages and programming languages. I try to create and develop my
-own projects. I try to approach the task responsibly, although I sometimes get lazy, bored and can get exhausted (I need to get enough rest), I once got breakdown and burnout - disgusting feeling, but gives life experience.
-My hobbies are skateboarding, playing musical instruments (I study in a musical conservatory as a percussionist), PC games, and I also like listening to
-music (any kind), I try to do physical exercises, several years ago I had been engaged in karate.
-
-Trying myself in new places, learning Unity, trying to create a couple of games. During the learning process I loved C#.
-I follow and participate (a little though) in the life of ECMA - I look through tc39 proposals and comment on them, put forward my suggestions on proposals.
-
-I also studied at Czeck language school for 9 months and some months at Japanese.
-
-_Thank you for reading_, in the case if you really read it.
+I started with HTML and kept going.
