@@ -1,0 +1,1 @@
+sudo apt install https://v2rayn.2dust.link/v2rayN-linux-64.deb
