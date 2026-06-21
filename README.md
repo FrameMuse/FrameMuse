@@ -106,23 +106,22 @@ mindmap
 
 | Project | Description | Stack Highlights |
 |---|---|---|
-| [rukaku](https://github.com/FrameMuse/rukaku) | Multi-language microservice finance platform | **nginx** (6 vhosts, SSL, WebSocket, auth_request), Docker Compose, Rust, Python, TS |
-| [campaign-dashboards](https://github.com/FrameMuse/campaign-dashboards) | Analytics dashboard with serverless backend | **AWS SAM + Lambda**, Hasura, Auth0, Amplify, DigitalOcean Spaces, CloudFormation |
-| [ci-cd](https://github.com/FrameMuse/ci-cd) | Reusable GitHub Actions workflows | Composite actions, PM2 deploy, S3 deploy, bun/npm dual support |
+| rukaku | Multi-language microservice finance platform | **nginx** (6 vhosts, SSL, WebSocket, auth_request), Docker Compose, Rust, Python, TS |
+| campaign-dashboards | Analytics dashboard with serverless backend | **AWS SAM + Lambda**, Hasura, Auth0, Amplify, DigitalOcean Spaces, CloudFormation |
+| ci-cd | Reusable GitHub Actions workflows | Composite actions, PM2 deploy, S3 deploy, bun/npm dual support |
 | [pinely.eu](https://github.com/FrameMuse/pinely.eu) | Payload CMS site | Next.js 15, MongoDB, Docker, **AWS S3 with OIDC** |
 | [smartlink-backend](https://github.com/FrameMuse/smartlink-backend) | NestJS production API | **PM2** ecosystem, **DigitalOcean** SSH deploy, GitHub Actions |
-| [solana-dex-trading-bot](https://github.com/FrameMuse/solana-dex-trading-bot) | DEX trading bot | Docker Compose (3 services + healthchecks), Solana SDK, gRPC, Jito |
-| [creaty](https://github.com/FrameMuse/creaty) | Content creation platform | **Docker Compose** (Postgres, Redis, Celery, Nginx, Cal.com), GitHub Actions |
+| solana-dex-trading-bot | DEX trading bot | Docker Compose (3 services + healthchecks), Solana SDK, gRPC, Jito |
+| [creaty-frontend](https://github.com/FrameMuse/creaty) | Content creation platform | **Docker Compose** (Postgres, Redis, Celery, Nginx, Cal.com), GitHub Actions |
 | [fbz-shop-bot](https://github.com/FrameMuse/fbz-shop-bot) | Telegram commerce bot | Docker + PostgreSQL, MikroORM, Telegraf |
-| [merlines_frontend](https://github.com/FrameMuse/merlines_frontend) | Frontend with CI/CD | **GitLab CI**, Docker, docker-compose |
-| [feature.fm](https://github.com/FrameMuse/feature.fm) | Feature management platform | **Cloudflare Workers** (wrangler.toml) |
-| [FrameMuse-Galaxy](https://github.com/FrameMuse/FrameMuse-Galaxy) | Galaxy app | **GCP App Engine** (app.yaml) |
-| [rust-web](https://github.com/FrameMuse/rust-web) | Rust axum web app | **Fly.io** deployment (fly.toml) |
-| [app-template](https://github.com/FrameMuse/app-template) | React project starter | Docker, GitHub Actions (build + S3 deploy), env configs |
-| [plapi](https://github.com/FrameMuse/plapi) | NestJS backend | TypeORM migrations, Swagger, AWS S3, Google Analytics, PM2 |
 | [fbz-shop-bot-python](https://github.com/FrameMuse/fbz-shop-bot-python) | Python Telegram bot | Docker + PostgreSQL, GitHub Actions |
-| [HCF series](https://github.com/FrameMuse/HCF) | Charity fundraising sites (Water, House, Childhood, shared) | Docker, GitHub Actions, React, env configs |
-| [llm/residential-proxy](https://github.com/FrameMuse/llm) | Proxy pool manager | FastAPI, aiohttp, multi-source proxy gathering, ASN verification |
+| [merlines-frontend](https://github.com/FrameMuse/merlines_frontend) | Frontend with CI/CD | **GitLab CI**, Docker, docker-compose |
+| feature.fm | Feature management platform | **Cloudflare Workers** (wrangler.toml) |
+| [FrameMuse-Galaxy](https://github.com/FrameMuse/FrameMuse-Galaxy) | Galaxy app | **GCP App Engine** (app.yaml) |
+| rust-web | Rust axum web app | **Fly.io** deployment (fly.toml) |
+| plapi | NestJS backend | TypeORM migrations, Swagger, AWS S3, Google Analytics, PM2 |
+| HCF series | Charity fundraising sites (Water, House, Childhood, shared) | Docker, GitHub Actions, React, env configs |
+| llm/residential-proxy | Proxy pool manager | FastAPI, aiohttp, multi-source proxy gathering, ASN verification |
 </details>
 
 <details>
