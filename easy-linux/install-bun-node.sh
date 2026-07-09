@@ -1,9 +1,9 @@
 # We're installing BUN instead of Node
 # and aliasing `node` to `bun` to avoid heavy node&npm packages and making it faster.
 
-sudo apt install curl unzip
+sudo apt install -y curl unzip
 curl -fsSL https://bun.com/install | bash
-
+source /root/.bashrc 
 
 
 
