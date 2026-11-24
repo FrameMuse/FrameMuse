@@ -1,268 +1,174 @@
-# Valery Zinchenko | Full-Stack Systems Engineer
+# Valery Zinchenko · Full-Stack Systems Engineer
 
-[LinkedIn](http://linkedin.com/in/framemuse) · [StackOverflow](https://stackoverflow.com/users/story/12468111) · [Telegram](https://t.me/FrameMuse)
+**I design, build and run production systems end to end: React frontends, TypeScript/Rust/Python backends, PostgreSQL, Linux servers, and the CI/CD that ships them.**
 
-> I design, build and operate production systems: from React components
-> to Linux servers, from zero to CI/CD. Every layer.
+10+ years of building for the web, 7+ of them in React and TypeScript. I've led frontend architecture as a Tech Lead, written a UI framework, and debugged the production incidents that come with real users.
 
-![Rust](https://img.shields.io/badge/Rust-000?logo=rust&style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&style=flat-square) ![AWS](https://img.shields.io/badge/AWS-FF9900?logo=amazonaws&style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&style=flat-square) ![React](https://img.shields.io/badge/React-61DAFB?logo=react&style=flat-square) ![NGINX](https://img.shields.io/badge/NGINX-009639?logo=nginx&style=flat-square)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-framemuse-0A66C2?logo=linkedin&style=flat-square)](https://linkedin.com/in/framemuse)
+[![Telegram](https://img.shields.io/badge/Telegram-FrameMuse-26A5E4?logo=telegram&style=flat-square)](https://t.me/FrameMuse)
+[![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-FrameMuse-F58025?logo=stackoverflow&style=flat-square)](https://stackoverflow.com/users/12468111/framemuse)
 
-## What I Do
+> **Open to work:** senior / lead frontend or full-stack roles, and contract work like architecture reviews, API layer design,
+> performance work and infrastructure setup. The fastest way to reach me is [Telegram](https://t.me/FrameMuse).
 
-### Systems & Infrastructure
-Provision Linux servers, harden SSH, configure **nginx** reverse proxies with SSL/TLS, fail2ban auto-jails, DNS. **Docker Compose** multi-service stacks with healthchecks. PostgreSQL at scale (50M+ rows, composite/partial indexes via `CONCURRENTLY`, PgBouncer, window functions, JSONB, full-text search). RabbitMQ, Redis and Celery: configured, debugged and production-hardened.
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square)
+![React](https://img.shields.io/badge/React-20232A?logo=react&style=flat-square)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=white&style=flat-square)
+![Bun](https://img.shields.io/badge/Bun-000?logo=bun&style=flat-square)
+![Rust](https://img.shields.io/badge/Rust-000?logo=rust&style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
+![NGINX](https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white&style=flat-square)
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&style=flat-square)
 
-### CI/CD & Cloud
-**GitHub Actions** (reusable workflows, composite actions, matrix builds), **GitLab CI**, **AWS SAM + Lambda**, **Amplify**, **CodeBuild**, **Cloudflare Workers**, **GCP App Engine**, **Fly.io**, **DigitalOcean** (Droplets, Spaces), **Supabase**, **Hasura Cloud**. PM2 ecosystem, S3 static hosting with OIDC, SSH-based rollouts. I own the pipeline from commit to production.
+---
 
-### Backend Engineering
-**Primary:** TypeScript (NestJS, Express, Next.js, Payload CMS) + PostgreSQL.
-**Systems:** Rust (Axum, SQLx, JWT, WebSocket, Telegram bots) for high-throughput auth and API microservices.
-**Python:** FastAPI (ML classification with sentence-transformers), Django (content platforms), Flask (REST APIs), Frappe/ERPNext.
-**Go, Java, C#** when the job requires it.
+## ⭐ Featured open source
 
-### Frontend Architecture
-React & TypeScript: 7+ years. Custom component libraries, state management (Redux, Zustand, reactive), SSR strategies. Canvas 2D, Three.js, WebGL. Author of the **No-Framework Principle** and the **@denshya** reactive ecosystem. Custom TypeScript compiler plugins (ts-patch, ESLint, TSServer, Vite).
+| Project | What it is | |
+|---|---|---|
+| [**react-modal-global**](https://github.com/FrameMuse/react-modal-global) | Open React modals from plain JS, outside the component tree | [npm](https://www.npmjs.com/package/react-modal-global) |
+| [**Tama**](https://github.com/pinely-international/tama) | Reactive JSX UI rendering without a root, usable across frameworks (formerly *Proton*, about 2 years of R&D) | [npm](https://www.npmjs.com/package/@denshya/tama) |
+| [**node-group**](https://github.com/FrameMuse/node-group) | A persistent, CSS-transparent group of DOM nodes, without patching the DOM ([write-up](blogs/node-group.md)) | [npm](https://www.npmjs.com/package/node-group) |
+| [**react-i18n-editor**](https://github.com/FrameMuse/react-i18n-editor) | Edit translations directly on the live page | [npm](https://www.npmjs.com/package/react-i18n-editor) |
+| [**API Facade**](https://github.com/FrameMuse/rest-api-facade) | A handbook of API client patterns: recipes, filtering, sorting, auth, Swagger typing ([intro](blogs/api-facade-introduction.md)) | guide |
+| [**benchik**](https://github.com/FrameMuse/benchik) | A tiny benchmark for browser and terminal with no dependencies | [npm](https://www.npmjs.com/package/benchik) |
+| [**mermaid-svg-native**](https://github.com/pinely-international/mermaid-svg-native) | Renders Mermaid to SVG without a headless browser | [npm](https://www.npmjs.com/package/mermaid-svg-native) |
 
-### Incident Response & Reliability
-**RabbitMQ memory leak**: A worker processing webhooks wasn't closing connections in the catch block. Every API error created a new connection without closing the old one. After 10,000 errors the connections consumed all memory and the server OOM-killed every 2-3 hours. Fix: `finally` block guaranteeing closure, graceful shutdown, memory growth alerts. [Post-mortem](work-stories/server-attack.md)
+## ✍️ Writing
 
-**Brute-force attack**: CPU pinned at 100% from thousands of concurrent auth attempts. Logged in, expanded log retention to preserve evidence, applied fail2ban auto-jail after 5 failed attempts, then disabled password auth entirely and switched to SSH key-only with certificates. [Post-mortem](work-stories/server-attack.md)
+I write about architecture, performance and the web platform. Start here:
 
-**Query performance**: A 5-table join was taking 8 seconds. Analyzed EXPLAIN plan, identified a sequential scan on a massive table, added a composite index. Query dropped to 80ms. [Story](work-stories/database.md)
+| Article | About |
+|---|---|
+| [Objects Where the Domain Lives](blogs/objects-where-the-domain-lives.md) | Domain code becomes classes, utilities stay pure functions, I/O goes in namespaces, and why each gets that shape |
+| [Faster JavaScript Loops Even Seniors Don't Know About](blogs/faster-loops.md) | Benchmarks of every loop and iterable, the generator penalty, unrolling, `for..in` vs `Object.keys` |
+| [The Optimization and Trust Dilemma](blogs/optimization-and-trust.md) | Rate limits, short bans and trust scores for public APIs |
+| [Group: A Persistent Node Range for the DOM](blogs/node-group.md) | The missing DOM primitive, prior art, and how `node-group` works |
+| [Code Boundaries](blogs/code-boundaries.md) | Where to draw lines in a codebase so it stays maintainable |
+| [No-Framework Principle](blogs/no-framework-principal.md) | Keep your dataflow and data structures independent of the framework |
+| [API Facade Patterns Seniors Don't Talk About](blogs/api-facade-seniors.md) | HTTP client architecture beyond `fetch` wrappers |
+| [SSR Breakdown](blogs/ssr-breakdown.md) | Trade-offs in server-side rendering, hydration and caching |
+| [What React Is Actually Doing](blogs/react-doing.md) | React internals and a critique of its dataflow |
+| [`useEffect` With `AbortSignal`](blogs/useEffect-abortSignal.md) | Cleaner subscriptions with one `abort()` |
 
-**Database design at scale**: Designed schemas for a CRM and transaction platform where tables grew to 50 million rows. Used B-tree, composite, partial and covering indexes. Added columns with DEFAULT NULL to avoid table locks, created indexes with CONCURRENTLY. Configured PgBouncer connection pooling. [Story](work-stories/database.md)
+## 🔧 From production
 
-**Supply chain incident**: Detected malicious code injected into one of my published libraries by a colleague. Documented the discovery process and remediation. [Story](blogs/victim-of-supply-chain-attack.md)
+Short write-ups of real incidents and the decisions behind them:
 
-```mermaid
-mindmap
-  root((Valery Zinchenko))
-    Systems & Infrastructure
-      Linux Servers
-      NGINX Reverse Proxy
-      SSL/TLS Certificates
-      Docker Compose
-      fail2ban
-      DNS Management
-      PgBouncer
-    Backend
-      TypeScript
-        NestJS
-        Express
-        Next.js
-        Payload CMS
-      Rust
-        Axum
-        SQLx
-        JWT Auth
-        WebSocket
-      Python
-        FastAPI
-        Django
-        Flask
-        Frappe
-    Frontend
-      React
-      Three.js
-      Canvas 2D
-      Denshya Ecosystem
-      Custom TS Plugins
-    Cloud
-      AWS
-      GCP App Engine
-      Cloudflare Workers
-      Fly.io
-      DigitalOcean
-    CI/CD
-      GitHub Actions
-      GitLab CI
-      AWS SAM
-      PM2
-    Databases
-      PostgreSQL
-      MongoDB
-      Redis
-      RabbitMQ
-    Languages
-      TypeScript
-      Rust
-      Python
-      C Sharp
-      Go
-      Java
-    Tools
-      Docker
-      Hasura
-      Supabase
-      Vite
-      Bun
-```
+- **RabbitMQ connection leak.** A webhook worker didn't close connections in its `catch` block. After about 10k errors the server ran out of memory and was OOM-killed every 2–3 hours. The fix was a `finally` block, graceful shutdown and alerts on memory growth. → [post-mortem](work-stories/server-attack.md)
+- **Brute-force attack.** CPU was pinned at 100% by thousands of auth attempts. I preserved the logs, set up a fail2ban auto-jail and moved SSH to keys only. → [post-mortem](work-stories/server-attack.md)
+- **8 s → 80 ms query.** A 5-table join was doing a sequential scan on a 50M-row table; a composite index fixed it. → [story](work-stories/database.md)
+- **Schema design at 50M rows.** CRM and transaction platforms with composite, partial and covering indexes, `CONCURRENTLY` migrations and PgBouncer. → [story](work-stories/database.md)
+- **Integration platform.** A normalization layer that brings 20 external webhook sources into one internal contract (NestJS, React, Electron). → [story](work-stories/difficult-task.1.md)
+- **Supply-chain incident.** I found malicious code injected into one of my published libraries, then traced and removed it.
+- **How I start a task.** → [questions I ask before writing code](work-stories/work-requirements.md)
 
-## Projects
+## 🧰 What I work with
 
 <details>
-<summary><b>Infrastructure & DevOps</b> (17 projects)</summary>
+<summary><b>Details by area</b></summary>
 
-| Project | Description | Stack Highlights |
-|---|---|---|
-| rukaku | Multi-language microservice finance platform | **nginx** (6 vhosts, SSL, WebSocket, auth_request), Docker Compose, Rust, Python, TS |
-| campaign-dashboards | Analytics dashboard with serverless backend | **AWS SAM + Lambda**, Hasura, Auth0, Amplify, DigitalOcean Spaces, CloudFormation |
-| ci-cd | Reusable GitHub Actions workflows | Composite actions, PM2 deploy, S3 deploy, bun/npm dual support |
-| [pinely.eu](https://github.com/FrameMuse/pinely.eu) | Payload CMS site | Next.js 15, MongoDB, Docker, **AWS S3 with OIDC** |
-| [smartlink-backend](https://github.com/FrameMuse/smartlink-backend) | NestJS production API | **PM2** ecosystem, **DigitalOcean** SSH deploy, GitHub Actions |
-| solana-dex-trading-bot | DEX trading bot | Docker Compose (3 services + healthchecks), Solana SDK, gRPC, Jito |
-| [creaty-frontend](https://github.com/FrameMuse/creaty-frontend) | Content creation platform | **Docker Compose** (Postgres, Redis, Celery, Nginx, Cal.com), GitHub Actions |
-| [fbz-shop-bot](https://github.com/FrameMuse/fbz-shop-bot) | Telegram commerce bot | Docker + PostgreSQL, MikroORM, Telegraf |
-| [fbz-shop-bot-python](https://github.com/FrameMuse/fbz-shop-bot-python) | Python Telegram bot | Docker + PostgreSQL, GitHub Actions |
-| [merlines-frontend](https://github.com/FrameMuse/merlines-frontend) | Frontend with CI/CD | **GitLab CI**, Docker, docker-compose |
-| feature.fm | Feature management platform | **Cloudflare Workers** (wrangler.toml) |
-| [FrameMuse-Galaxy](https://github.com/FrameMuse/FrameMuse-Galaxy) | Galaxy app | **GCP App Engine** (app.yaml) |
-| rust-web | Rust axum web app | **Fly.io** deployment (fly.toml) |
-| plapi | NestJS backend | TypeORM migrations, Swagger, AWS S3, Google Analytics, PM2 |
-| [HCF series](https://github.com/FrameMuse/HCF) | Charity fundraising sites (Water, House, Childhood, shared) | Docker, GitHub Actions, React, env configs |
-| llm/residential-proxy | Proxy pool manager | FastAPI, aiohttp, multi-source proxy gathering, ASN verification |
+**Frontend:** React and TypeScript (7+ years), Redux / Zustand / signals, SSR, component libraries, Canvas 2D, Three.js / WebGL. Author of the [No-Framework Principle](blogs/no-framework-principal.md) and the [Denshya](https://github.com/denshya) libraries. Custom TypeScript tooling (ts-patch, ESLint, TSServer and Vite plugins).
+
+**Backend:** TypeScript (NestJS, Express, Next.js, Payload CMS); Rust (Axum, SQLx, JWT, WebSocket) for high-throughput auth and API services; Python (FastAPI, Django, Flask, Frappe/ERPNext). Go, Java and C# when a project needs them.
+
+**Data:** PostgreSQL (indexing, window functions, JSONB, full-text search, PgBouncer), Redis, RabbitMQ, Celery, MongoDB.
+
+**Infrastructure:** Linux servers, SSH hardening, nginx reverse proxies with TLS, fail2ban, DNS, and Docker Compose stacks with healthchecks.
+
+**CI/CD & cloud:** GitHub Actions (reusable workflows, composite actions, matrix builds), GitLab CI, AWS (SAM, Lambda, Amplify, S3 with OIDC, CodeBuild), Cloudflare Workers, GCP App Engine, Fly.io, DigitalOcean, Supabase, Hasura.
+
 </details>
 
-<details>
-<summary><b>Backend Systems</b> (15 projects)</summary>
+## 📦 More projects
 
-| Project | Description | Stack Highlights |
-|---|---|---|
-| [smartlink-backend](https://github.com/FrameMuse/smartlink-backend) | NestJS production API | TypeORM, PostgreSQL, JWT, WebSocket, Swagger |
-| [plapi](https://github.com/FrameMuse/plapi) | NestJS backend | TypeORM, PostgreSQL, AWS S3, Google Analytics, Swagger |
-| [campaign-dashboards SAM](https://github.com/FrameMuse/campaign-dashboards) | Serverless Lambda APIs | **AWS SAM + CloudFormation**, Lambda functions (login, forgot-password, upload), Auth0 |
-| [creaty](https://github.com/FrameMuse/creaty-backend) | Django content platform | Python/Django, PostgreSQL, Redis, Celery background workers |
-| [Articulum-backend](https://github.com/FrameMuse/Articulum-backend) | Flask REST API | Python/Flask, Gunicorn, Vercel |
-| [solana-dex-trading-bot](https://github.com/FrameMuse/solana-dex-trading-bot) | DEX trading strategies | TypeScript/Bun + Python (IPC), Solana SDK, PumpSwap |
-| [erpnext-optora](https://github.com/FrameMuse/erpnext-optora) | ERPNext customizations | Python/Frappe, setup.py, requirements.txt |
-| [PAROGO_OS_v0.5](https://github.com/FrameMuse/PAROGO_OS_v0.5) | Full-stack app | Drizzle ORM, NeonDB, SendGrid, gitleaks, Husky |
-</details>
+Links go to public repositories. 🔒 marks client or private work: I can walk you through it, but the code isn't public.
 
 <details>
-<summary><b>Frontend Applications</b> (25 projects)</summary>
-
-| Project | Description | Stack |
-|---|---|---|
-| [smartlink-frontend](https://github.com/FrameMuse/smartlink-frontend) | Link management platform | React 19, Redux Toolkit, Socket.IO, Zod |
-| [campaign-dashboards](https://github.com/FrameMuse/campaign-dashboards) | Analytics dashboard | React, Hasura GraphQL, Tailwind |
-| [creaty-frontend](https://github.com/FrameMuse/creaty-frontend) | Content creation UI | React, TypeScript |
-| [pinely.eu](https://github.com/FrameMuse/pinely.eu) | CMS website | Next.js 15, Payload CMS |
-| [algo-academy](https://github.com/FrameMuse/algo-academy) | Algorithm learning platform | React, Docker, TypeScript |
-| [HCF-Water](https://github.com/FrameMuse/HCF-Water) | Charity fundraising | React, Docker |
-| [HCF-House](https://github.com/FrameMuse/HCF-House) | Charity fundraising | React, Docker |
-| [HCF-Childhood](https://github.com/FrameMuse/HCF-Childhood) | Charity fundraising | React, Docker |
-| [HCF-shared](https://github.com/FrameMuse/HCF-shared) | Shared HCF components | React |
-| [liquidnft](https://github.com/FrameMuse/liquidnft) | NFT platform | React, ethers, web3, tronweb |
-| [liquidnft-landing](https://github.com/FrameMuse/liquidnft-landing) | NFT landing page | React |
-| [liquidnft-platform](https://github.com/FrameMuse/liquidnft-platform) | NFT platform v2 | React |
-| [merlines-frontend](https://github.com/FrameMuse/merlines-frontend) | Business frontend | React, Docker, GitLab CI |
-| [articulum-frontend](https://github.com/FrameMuse/articulum-frontend) | Articulum UI | React, Docker |
-| [corpachat-frontend](https://github.com/FrameMuse/corpachat-frontend) | Corporate chat | React |
-| [ATOM-SMM](https://github.com/FrameMuse/ATOM-SMM) | SMM panel | React, CRA |
-| [ATOM-SMM-v1](https://github.com/FrameMuse/ATOM-SMM-v1) | SMM panel v1 | React, deploy.sh |
-| [etukk-frontend](https://github.com/FrameMuse/etukk-frontend) | Etukk platform | React |
-| [snayplay-markup](https://github.com/FrameMuse/snayplay-markup) | Static markup | HTML/CSS |
-| [Case-Simulator-React](https://github.com/FrameMuse/Case-Simulator-React) | CS:GO case simulator | React |
-| [tilt-nova-sales](https://github.com/FrameMuse/tilt-nova-sales) | Sales platform | React |
-| [laughing-robot](https://github.com/FrameMuse/laughing-robot) | Fun project | React, Docker |
-| [StandoffCrash](https://github.com/FrameMuse/StandoffCrash) | Casino game | Vite, React |
-| [StandoffSpin](https://github.com/FrameMuse/StandoffSpin) | Casino game | Vite, React |
-| [standoffup](https://github.com/FrameMuse/standoffup) | Casino game | Vite, React |
-</details>
-
-<details>
-<summary><b>Libraries & Packages</b> (21 projects)</summary>
-
-| Package | Description | npm |
-|---|---|---|
-| [@denshya/tama](https://github.com/denshya/tama) | Lightweight JSX inflator (React/SolidJS alternative) | `@denshya/tama` |
-| [@denshya/reactive](https://github.com/denshya/flow) | Observable reactive state management | `@denshya/reactive` |
-| [@denshya/observable](https://github.com/denshya/observable) | Observable utilities | `@denshya/observable` |
-| [@denshya/router](https://github.com/denshya/router) | URL pattern-based router | `@denshya/router` |
-| [@denshya/navigation](https://github.com/denshya/navigation) | Navigation/routing library | `@denshya/navigation` |
-| [@denshya/ssr](https://github.com/denshya/ssr) | Server-side rendering module | |
-| [react-modal-global](https://github.com/FrameMuse/react-modal-global) | Global modal dialog | `react-modal-global` |
-| [react-i18n-editor](https://github.com/FrameMuse/react-i18n-editor) | In-browser localization editor | `react-i18n-editor` |
-| [mixedin](https://github.com/FrameMuse/mixedin) | TypeScript mixin library | `mixedin` |
-| [svg-bbox](https://github.com/FrameMuse/svg-bbox) | SVG bounding box polyfill + Vite plugin | `svg-bbox` |
-| [mermaid-svg-native](https://github.com/FrameMuse/mermaid-svg-native) | Pure SVG Mermaid (no headless browser) | |
-| [vite-mermaid-svg](https://github.com/FrameMuse/vite-mermaid-svg) | Vite plugin for mermaid-svg-native | |
-| [openapi-schema-tools](https://github.com/FrameMuse/openapi-schema-tools) | OpenAPI schema manipulation | |
-| [query-tools](https://github.com/FrameMuse/query-tools) | URL query string utilities | |
-| [bemer](https://github.com/FrameMuse/bemer) | BEM CSS helper | |
-| [group](https://github.com/FrameMuse/group) | Object grouping library | |
-| [react-zod-form](https://github.com/FrameMuse/react-zod-form) | Zod-based form validation for React | |
-| [react-sai](https://github.com/FrameMuse/react-sai) | React component library | |
-| [redux-reactive-accessor](https://github.com/FrameMuse/redux-reactive-accessor) | Reactive Redux accessor | |
-| [universal-swagger-exporter](https://github.com/FrameMuse/universal-swagger-exporter) | Export Swagger from various formats | |
-| [bench-suite](https://github.com/FrameMuse/bench-suite) | Benchmarking suite | |
-</details>
-
-<details>
-<summary><b>Frameworks & Compiler Tooling</b> (12 projects)</summary>
-
-| Project | Description | Stack |
-|---|---|---|
-| [Proton](https://github.com/pinely-international/proton) | Custom JavaScript framework (2 years R&D) | TypeScript |
-| [story-studio](https://github.com/FrameMuse/story-studio) | Custom TS compiler plugins | ts-patch, ESLint plugin, TSServer plugin, Vite plugin |
-| [denshya/ssr](https://github.com/denshya/ssr) | Server-side rendering for Denshya | TypeScript |
-| [denshya/rich-text-editor](https://github.com/denshya/rich-text-editor) | Rich text editor component | TypeScript |
-| [denshya/tamablog](https://github.com/denshya/tamablog) | GitHub Action-powered blog engine | Composite action, Markdown |
-| [denshya/documaru](https://github.com/denshya/documaru) | Documentation site engine | Denshya stack |
-| [api-facade](https://github.com/FrameMuse/api-facade) | HTTP client pattern library + guide | TypeScript, guide |
-| [react-template](https://github.com/FrameMuse/react-template) | React project template | Vite, React |
-| [library-template](https://github.com/FrameMuse/library-template) | npm library starter | Rollup, SWC, SCSS |
-| [ts-patch-playground](https://github.com/FrameMuse/ts-patch-playground) | TypeScript patch experiments | ts-patch, Vite |
-| [folder-structure](https://github.com/FrameMuse/folder-structure) | Project structure conventions guide | |
-| [project-atlas](https://github.com/FrameMuse/project-atlas) | Local-first project management | React, isomorphic-git |
-</details>
-
-<details>
-<summary><b>Game Development</b> (4 projects)</summary>
-
-| Project | Description | Stack |
-|---|---|---|
-| [COH](https://github.com/FrameMuse/COH) | 3D game with navmesh pathfinding | Three.js, recast-navigation, @react-three/fiber |
-| [GlobeRotation](https://github.com/FrameMuse/GlobeRotation) | Unity 3D globe | **Unity, C#** |
-| [Freeze-Man](https://github.com/FrameMuse/Freeze-Man) | Unity platformer | **Unity, C#** |
-| [Tower-Defense](https://github.com/FrameMuse/Tower-Defense) | Unity tower defense | **Unity, C#** |
-</details>
-
-<details>
-<summary><b>Developer Tools & VS Code Extensions</b> (4 projects)</summary>
+<summary><b>Libraries & tooling</b></summary>
 
 | Project | Description |
 |---|---|
-| [vscode-dsl-operators](https://github.com/FrameMuse/vscode-dsl-operators) | VS Code extension for DSL operator support |
+| [@denshya/reactive](https://github.com/denshya/reactive) | State engine with signals, fine-grained updates, derived values and actions ([npm](https://www.npmjs.com/package/@denshya/reactive)) |
+| [@denshya/router](https://github.com/denshya/router) · [@denshya/navigation](https://github.com/denshya/navigation) | URL pattern routing and navigation |
+| [denshya/ssr](https://github.com/denshya/ssr) | Server-side rendering for the Denshya stack |
+| [tamui](https://github.com/pinely-international/tamui) | Cross-framework UI kit and design system |
+| [jsx-canvas](https://github.com/pinely-international/jsx-canvas) | Render HTML-like JSX markup to `<canvas>` |
+| [documaru](https://github.com/pinely-international/documaru) · [tamablog](https://github.com/pinely-international/tamablog) | Markdown docs and blog generators that run as GitHub Actions |
+| [vite-mermaid-svg](https://github.com/pinely-international/vite-mermaid-svg) | Vite plugin that compiles Mermaid to SVG at build time |
+| [svg-bbox](https://github.com/pinely-international/svg-bbox) | `getBBox` polyfill for browser-less environments ([npm](https://www.npmjs.com/package/svg-bbox-polyfill)) |
+| [mixedin](https://github.com/FrameMuse/mixedin) | Mixins (multiple inheritance) in TypeScript ([npm](https://www.npmjs.com/package/mixedin)) |
+| [react-zod-form](https://github.com/FrameMuse/react-zod-form) | Zod-based form validation for React ([npm](https://www.npmjs.com/package/react-zod-form)) |
+| [openapi-schema-tools](https://github.com/FrameMuse/openapi-schema-tools) · [universal-swagger-exporter](https://github.com/FrameMuse/universal-swagger-exporter) | OpenAPI / Swagger schema manipulation and type export |
+| [closure-signal](https://github.com/FrameMuse/closure-signal) · [event-signal](https://github.com/FrameMuse/event-signal) | Minimal signal implementations (TC39 Signals compliant / event-based) |
+| [typescript-operator-overloading](https://github.com/FrameMuse/typescript-operator-overloading) | Operator overloading for TypeScript via Symbols |
+| [llm-rag](https://github.com/FrameMuse/llm-rag) | CLI and MCP tool that turns code and docs into a RAG / graph knowledge base |
+| [web-scrapper](https://github.com/FrameMuse/web-scrapper) | `scrape` CLI that converts a website to Markdown |
+| [bemer](https://github.com/FrameMuse/bemer) | BEM class-name helper |
+| [ci-cd](https://github.com/pinely-international/ci-cd) | Reusable GitHub Actions workflows: PM2 and S3 deploys, bun/npm support |
+| [folder-structure](https://github.com/pinely-international/folder-structure) | Project structure conventions |
+| [react-template](https://github.com/FrameMuse/react-template) | TypeScript React starter |
 | [vscode-frontend-helper](https://github.com/FrameMuse/vscode-frontend-helper) | VS Code extension with frontend utilities |
-| [react-figma](https://github.com/FrameMuse/react-figma) | React renderer for Figma |
-| [game-editor](https://github.com/FrameMuse/game-editor) | 3D game editor with GPU path tracer |
+| 🔒 story-studio | Custom TypeScript compiler plugins (ts-patch, ESLint, TSServer, Vite) |
+| 🔒 project-atlas | Local-first, git-based project management (React, isomorphic-git) |
+| 🔒 react-sai · query-tools | Swagger-driven API integration for React; URL query utilities |
+
 </details>
 
-## Denshya Initiative
+<details>
+<summary><b>Products & client work</b></summary>
 
-Making the Web a better place through simple, standardized, atomized tools.
-**[github.com/denshya](https://github.com/denshya)** · 18 packages + tools
+| Project | Description | Stack |
+|---|---|---|
+| 🔒 rukaku | Multi-language microservice finance platform | nginx (6 vhosts, TLS, WebSocket, `auth_request`), Docker Compose, Rust, Python, TS |
+| 🔒 smartlink | Link management platform, API and frontend | NestJS, TypeORM, PostgreSQL, WebSocket, PM2, React 19, Redux Toolkit, Zod |
+| 🔒 campaign-dashboards | Analytics dashboard with a serverless backend | AWS SAM + Lambda, CloudFormation, Hasura, Auth0, Amplify, React |
+| 🔒 creaty | Content creation platform | Django, PostgreSQL, Redis, Celery, nginx, Cal.com · [frontend](https://github.com/FrameMuse/creaty-frontend) |
+| 🔒 pinely.eu | Company CMS site | Next.js 15, Payload CMS, MongoDB, S3 with OIDC |
+| 🔒 plapi | NestJS backend | TypeORM, Swagger, S3, PM2 |
+| 🔒 solana-dex-trading-bot | DEX trading strategies | TypeScript/Bun + Python (IPC), Solana SDK, gRPC, Jito |
+| 🔒 Stream menu ecosystem | Figma plugin, admin panel and menu app ([retrospective](blogs/project-1-year.md)) | React, Figma API |
+| 🔒 erpnext-optora | ERPNext customizations | Python, Frappe |
+| 🔒 feature.fm | Feature management | Cloudflare Workers |
+| 🔒 fbz-shop-bot | Telegram commerce bot (TS and Python versions) | Telegraf, MikroORM, PostgreSQL, Docker |
+| 🔒 HCF | Charity fundraising sites | React, Docker, GitHub Actions · [Water](https://github.com/FrameMuse/HCF-Water) · [House](https://github.com/FrameMuse/HCF-House) · [Childhood](https://github.com/FrameMuse/HCF-Childhood) |
+| [merlines-frontend](https://github.com/FrameMuse/merlines-frontend) | Business frontend | React, Docker, GitLab CI |
+| [Invix-Solutions](https://github.com/FrameMuse/Invix-Solutions) | Product catalog | Next.js, FastAPI, aiogram, PostgreSQL, MinIO |
+| [rust-web](https://github.com/FrameMuse/rust-web) | Rust web app | Axum, Fly.io |
 
-## Technical Writing
+</details>
 
-| Article | Topic |
-|---|---|
-| [Faster JavaScript Loops Even Seniors Don't Know About](blogs/faster-loops.md) | JS engine optimization, GC elimination, loop unrolling |
-| [SSR Breakdown](blogs/ssr-breakdown.md) | Server-side rendering trade-offs, hydration, caching |
-| [No-Framework Principle](blogs/no-framework-principal.md) | Architecture principle for framework-independent code |
-| [Code Boundaries](blogs/code-boundaries.md) | Architectural patterns for maintainable codebases |
-| [API Facade Patterns Seniors Don't Talk About](blogs/api-facade-seniors.md) | HTTP client architecture patterns |
-| [What React Is Actually Doing](blogs/react-doing.md) | React internals, Virtual DOM, dataflow criticism |
-| [Blending Architecture](blogs/blending-architecture.md) | Designing APIs that blend with existing standards |
-| [1-Year Project Retrospective](blogs/project-1-year.md) | Figma Plugin + Admin Panel + Menu App ecosystem |
-| [Switched to Linux](blogs/switched-to-linux.md) | Migrating from Windows to Linux |
-| [Victim of Supply Chain Attack](blogs/victim-of-supply-chain-attack.md) | Detecting malicious code in dependencies |
+<details>
+<summary><b>Games & 3D</b></summary>
 
-## Keep Reading
+| Project | Description | Stack |
+|---|---|---|
+| 🔒 usagi3d editor | 3D game editor with a GPU path tracer | Three.js, WebGL |
+| 🔒 COH | 3D game with navmesh pathfinding | Three.js, recast-navigation, @react-three/fiber |
+| [Tower-Defense](https://github.com/FrameMuse/Tower-Defense) · [Freeze-Man](https://github.com/FrameMuse/Freeze-Man) | Unity games | Unity, C# |
+| [react-world](https://github.com/FrameMuse/react-world) | A small, fast React world map | React, SVG |
 
-- [Extended Bio](bio.md): the full journey from PHP at 11 to Rust microservices
-- [Full Resume](Resume.md): detailed work history, education, certifications
-- [Work Stories](work-stories/): server attacks, database crises and production incidents
-- [Early Projects](early-projects/): PHP, jQuery and CS:GO gambling sites from 2015. Been at this a while.
+</details>
+
+<details>
+<summary><b>Archive (early work, 2015–2021)</b></summary>
+
+Archived repositories from when I was starting out: CS:GO / Standoff sites, landing pages and early React apps. For example
+[Case-Simulator-React](https://github.com/FrameMuse/Case-Simulator-React),
+[StandoffSpin](https://github.com/FrameMuse/StandoffSpin),
+[algo-academy](https://github.com/FrameMuse/algo-academy),
+[corpachat-frontend](https://github.com/FrameMuse/corpachat-frontend),
+[articulum-frontend](https://github.com/FrameMuse/articulum-frontend),
+[AtomSMM-frontend](https://github.com/FrameMuse/AtomSMM-frontend),
+[FrameMuse-Galaxy](https://github.com/FrameMuse/FrameMuse-Galaxy).
+I started with *HTML & CSS for Dummies* at 11 and kept going.
+
+</details>
+
+## More about me
+
+- [Bio](bio.md): from PHP at 11 to Rust microservices, plus percussion, skateboarding and four languages
+- [Resume](Resume.md): work history in full
+- [Easy Linux](easy-linux/): my scripts for setting up a desktop or server

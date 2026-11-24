@@ -54,8 +54,8 @@ The primitive loop. Runs as long as or while a condition is truthy:
 
 ```js
 let i = 0
-while (i++ < items.length) {
-  process(items[i])
+while (i < items.length) {
+  process(items[i++])
 }
 ```
 

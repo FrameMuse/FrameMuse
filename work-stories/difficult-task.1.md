@@ -1,7 +1,3 @@
-Here is the English translation of your text, polished to read like a strong, professional resume or portfolio highlight for a Lead/Senior Engineer or Software Architect:
-
----
-
 ### Consolidated Viewables Platform (NestJS, React, Electron)
 
 **My Responsibilities:** Design, Architecture, Documentation, Full-Cycle Development

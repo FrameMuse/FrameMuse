@@ -1,7 +1,5 @@
 # Server Attack
 
-Here is the English translation of your text, keeping the technical context and natural, professional developer tone intact:
-
 There was an incident on a project involving webhook processing. One day, the server started crashing due to memory exhaustion every 2-3 hours. It was just a straightforward OOM kill, and then the service would restart.
 
 First, I went to check the metrics. The memory graph showed that consumption was growing linearly up to 100% and then dropping after a reboot. A typical leak. I looked at the logs right before a crash and noticed that the number of open connections to RabbitMQ was constantly increasing.
