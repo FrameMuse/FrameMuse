@@ -22,20 +22,6 @@
 ![NGINX](https://img.shields.io/badge/NGINX-009639?logo=nginx&logoColor=white&style=flat-square)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&style=flat-square)
 
----
-
-## ⭐ Featured open source
-
-| Project | What it is | |
-|---|---|---|
-| [**react-modal-global**](https://github.com/FrameMuse/react-modal-global) | Open React modals from plain JS, outside the component tree | [npm](https://www.npmjs.com/package/react-modal-global) |
-| [**Tama**](https://github.com/pinely-international/tama) | Reactive JSX UI rendering without a root, usable across frameworks (formerly *Proton*, about 2 years of R&D) | [npm](https://www.npmjs.com/package/@denshya/tama) |
-| [**node-group**](https://github.com/FrameMuse/node-group) | A persistent, CSS-transparent group of DOM nodes, without patching the DOM ([write-up](blogs/node-group.md)) | [npm](https://www.npmjs.com/package/node-group) |
-| [**react-i18n-editor**](https://github.com/FrameMuse/react-i18n-editor) | Edit translations directly on the live page | [npm](https://www.npmjs.com/package/react-i18n-editor) |
-| [**API Facade**](https://github.com/FrameMuse/rest-api-facade) | A handbook of API client patterns: recipes, filtering, sorting, auth, Swagger typing ([intro](blogs/api-facade-introduction.md)) | guide |
-| [**benchik**](https://github.com/FrameMuse/benchik) | A tiny benchmark for browser and terminal with no dependencies | [npm](https://www.npmjs.com/package/benchik) |
-| [**mermaid-svg-native**](https://github.com/pinely-international/mermaid-svg-native) | Renders Mermaid to SVG without a headless browser | [npm](https://www.npmjs.com/package/mermaid-svg-native) |
-
 ## ✍️ Writing
 
 I write about architecture, performance and the web platform. Start here:
@@ -53,7 +39,7 @@ I write about architecture, performance and the web platform. Start here:
 | [What React Is Actually Doing](blogs/react-doing.md) | React internals and a critique of its dataflow |
 | [`useEffect` With `AbortSignal`](blogs/useEffect-abortSignal.md) | Cleaner subscriptions with one `abort()` |
 
-## 🔧 From production
+## From production
 
 Short write-ups of real incidents and the decisions behind them:
 
@@ -65,7 +51,7 @@ Short write-ups of real incidents and the decisions behind them:
 - **Supply-chain incident.** I found malicious code injected into one of my published libraries, then traced and removed it.
 - **How I start a task.** → [questions I ask before writing code](work-stories/work-requirements.md)
 
-## 🧰 What I work with
+## What I work with
 
 <details>
 <summary><b>Details by area</b></summary>
